@@ -17,6 +17,7 @@ section{padding:4.5rem 0}
 h1,h2,h3{font-family:var(--display);font-weight:400;line-height:.95;margin:0;letter-spacing:.01em;text-transform:uppercase}
 h2{font-size:clamp(2.4rem,7vw,4rem);margin-bottom:.6rem}
 .lead{color:var(--muted);max-width:34rem;margin:0 0 2.2rem}
+#servicios h2,#servicios .lead,.facility h2,.facility .lead{text-align:center;margin-left:auto;margin-right:auto}
 
 .btn{display:inline-block;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:.8rem 1.4rem;border-radius:.25rem;border:2px solid var(--red)}
 .btn:hover{background:#fff;color:var(--red);border-color:#fff}
@@ -80,6 +81,7 @@ footer{border-top:1px solid var(--line);padding:2rem 0;color:var(--muted);font-s
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.6rem}
 .gal{display:grid;gap:.8rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),23rem))}
 .gal video{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;background:#000;border:1px solid var(--line);border-radius:.25rem}
+.facility .gal{justify-content:center}
 @media (max-width:38rem){
   section{padding:3.25rem 0}
   .hero h1{font-size:clamp(3rem,15vw,4.2rem)}
